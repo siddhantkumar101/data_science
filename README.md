@@ -140,3 +140,37 @@ All source files are fully documented, modular, and organized within your worksp
 * **Dataset Generation Script:** [generate_data.py](file:///c:/Users/siddh/Desktop/andro/sales-insights-project/scripts/generate_data.py)
 * **Main Processing & Modeling Pipeline:** [sales_analysis.py](file:///c:/Users/siddh/Desktop/andro/sales-insights-project/scripts/sales_analysis.py)
 * **Exported Charts Directory:** [visualizations/](file:///c:/Users/siddh/Desktop/andro/sales-insights-project/visualizations)
+
+---
+
+## 7. How to Run the Project Locally
+
+Anyone can clone this repository and run the entire data science pipeline on their local machine.
+
+### Prerequisites
+Make sure you have Python 3.8+ installed on your system.
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/siddhantkumar101/data_science.git
+cd data_science
+```
+
+### Step 2: Install Dependencies
+Install all required libraries using the package manager:
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Analysis Pipeline
+Execute the Python script to run data cleaning, perform EDA, export the visual charts, and train the forecasting model:
+```bash
+python scripts/sales_analysis.py
+```
+
+### Step 4: Run the Interactive Notebook (Optional)
+If you prefer an interactive interface, open the Jupyter Notebook:
+```bash
+jupyter notebook sales_analysis.ipynb
+```
+
