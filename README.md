@@ -2,7 +2,7 @@
 
 **Date:** May 26, 2026  
 **Project Folder:** [sales-insights-project](file:///c:/Users/siddh/Desktop/andro/sales-insights-project)  
-**Author:** Antigravity Data Science Team  
+
 
 ---
 
